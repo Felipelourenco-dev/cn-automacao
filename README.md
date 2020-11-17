@@ -4,11 +4,11 @@
 <p>Como se trata de uma pequena empresa, escolhi fazer um one page.</p>
 
 <h2> Tecnologias usadas</h2>
-Html
-Css
-JavaScript
+<p>Html</p>
+<p>Css</p>
+<p>JavaScript</p>
 
 <h2>Referências</h2>
-Alura Cursos
-Origamid
+<p>Alura Cursos</p>
+<p>Origamid</p>
 
