@@ -1,0 +1,319 @@
+/** Geral **/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.titulo-secao {
+  text-decoration: none;
+  font-size: 2em;
+  text-align: center;
+}
+
+.sobre,
+.planos,
+.blog,
+.contato {
+  padding: 3em 0 6em 0;
+}
+
+h1,
+ h2,
+  h3 {
+ color: #000133;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+
+
+/** Header **/
+header {
+
+  background: #000133;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 5;
+-webkit-box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.75);
+}
+
+header .container {
+  position: relative;
+
+}
+
+#banner {
+  width: 100%;
+}
+
+.h1-logo {
+  color: white;
+}
+
+.menu-opcoes {
+  position: absolute;
+  right: 0;
+  top: -.5em;
+  font-size: 1.2em;
+  font-weight: lighter;
+  
+ 
+}
+
+.menu-opcoes ul {
+  padding-left: 0;
+}
+
+.menu-opcoes li {
+  display: inline-block;
+  width: 5em;
+}
+
+.menu-opcoes a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-opcoes a:hover {
+  text-decoration: none;
+  color: #0073e6;
+  border-bottom: 2px solid #0073e6;;
+}
+
+.menu-abrir,
+.menu-fechar {
+  display: none;
+}
+
+/** Destaque **/
+.destaque img{
+
+  width: 100%;
+  
+}
+
+.destaque .container {
+  width: 100%;
+}
+
+main {
+  position: relative;
+  padding-top: 6em;
+}
+
+.titulo-secao {
+  text-align: center;
+}
+
+
+/** Sobre **/
+
+
+
+
+
+/** Serviços **/
+
+.servicos {
+  
+  text-align: center;
+}
+
+.servicos h2 {
+  font-size: 50px;
+}
+
+.servicos h3 {
+  font-size: 20px;
+}
+
+.imagens-servicos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 250px;
+
+}
+
+.imagens-servicos img {
+  
+  margin-right: 7px;
+}
+
+.titulo-servicos {
+  padding: 40px;
+}
+
+.p-destaque {
+  font-size: 35px;
+}
+
+.solucoes-texto {
+  text-align: left;
+  width: 60%;
+  margin: auto;
+}
+
+
+/** Parceiros **/
+
+.parceiros {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+
+/** Contato **/
+
+.contato  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.formas-contato {
+  display: flex;
+  justify-content: space-around;
+  text-align: -webkit-center;
+  padding: 25px;
+
+}
+/** Footer **/
+footer {
+  display: block;
+  position: relative;
+}
+
+footer::after {
+  content: "";
+  background: url;
+  opacity: .02;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+footer::before {
+  content: "";
+  background: #000133;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.75);
+}
+
+footer .container {
+  padding-top: 3em;
+  height: 6.5em;
+  position: relative;
+}
+
+footer .container img {
+  width: 250px;
+}
+
+.menu-rodape,
+.social {
+  position: absolute;
+}
+
+.menu-rodape ul li {
+  display: inline-block;
+  margin-left: 2em;
+}
+
+.menu-rodape {
+  top: 1em;
+  right: 0;
+}
+
+.social {
+  bottom: 0;
+  right: 0;
+}
+
+.menu-rodape li,
+.social li {
+  display: inline;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer h1 {
+  color: white;
+}
+
+.social li {
+  float: left;
+}
+
+.social li a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin-left: 1em;
+}
+
+.social a {
+  background-position: top;
+  background-size: 50px 50px;
+}
+
+.social a[href*="facebook"] {
+  background-image: url(../imagens/facebook.png);
+}
+
+.social a[href*="instagram"] {
+  background-image: url(../imagens/instagram.png);
+}
+
+
+/* Animação */
+[data-anime] {
+  opacity: 0;
+  transition: 0.4s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0,0);
+
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
