@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>CN Automação Comercial</title>
+	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+	
+	<link  rel ="shortcut icon"  href ="imagens/favicon.ico"  type="image / x-icon" > 
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<button class="menu-abrir"></button><h1 class="h1-logo">
+				CN Automação Comercial
+			</h1> 
+			<nav class="menu-opcoes barra-nav">
+				<button class="menu-fechar"></button>
+
+				<ul class="menu-principal">
+					<li><a href="#" onclick="linkDeslizante('.menu-opcoes')">Home</a></li>
+					<li><a href="#" onclick="linkDeslizante('.sobre')">Sobre</a></li>
+					<li><a href="#" onclick="linkDeslizante('.servicos')">Soluções</a></li>
+					<li><a href="#" onclick="linkDeslizante('.blog')">Parceiros</a></li>
+					<li><a href="#" onclick="linkDeslizante('.contato')">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+
+
+	<section class="destaque">
+		<div class="container">
+			<img id="banner" src="imagens/cnautomação.png">
+			
+		</div>
+	</section>
+
+	<section class="sobre">
+		<div class="container">
+			<h2 class="titulo-secao">Sobre</h2>
+			<div class="duas-colunas">
+				<h3>Quem somos nós?</h3>
+				
+				Há mais de 25 anos no mercado, a Solução Sistemas é uma empresa consolidada que buscou, ao longo desta caminhada, desenvolver uma estrutura diferenciada para oferecer os melhores sistemas e tecnologias do mercado, além de prezar por um atendimento excepcional e personalizado a todos os leads, clientes e colaboradores.
+				
+				Com a finalidade de ajudar os clientes a melhorarem seu desempenho nossos sistemas integram toda a organização da sua empresa, desde a área de vendas até as áreas de logística e gestão, de maneira flexível e simples. Com o acesso remoto via Web, e o uso de softwares livres, procuramos agilizar o fluxo de informações e possibilitar o acesso rápido aos dados necessários para uma gestão completa e estratégica. Contudo, de forma integrada, nos atentamos em atender todas as exigências fiscais necessárias para manter qualquer negócio dentro das normas nacionais e possibilitar aos nossos clientes um crescimento seguro e pleno.
+				
+				<h3>Missão</h3>
+				Aplicar com excelência sistemas de automação e gerenciamento comercial nos diversos segmentos de mercado, prestando ótimos serviços e oferecendo uma qualidade exemplar e personalizada para o cliente, focando em facilitar todos os processos e ajudar no seu crescimento.
+				
+				<h3>Visão</h3>
+				Buscaremos ser uma empresa de referência com o reconhecimento dos nossos clientes, fornecedores, investidores e colaboradores, através da qualidade diferenciada de nossos produtos e serviços e preocupação em formar um ótimo relacionamento
+				
+				<h3>Valores</h3>
+				Valorização das ações e das pessoas que as executam;
+				Satisfação dos clientes;
+				Agilidade e qualidade;
+				Trabalho em equipe;
+				Excelência nos processos.
+
+			</div>
+		</div>
+	</section>
+
+	<section class="servicos">
+		<div class="container">
+			<h2 class="titulo-servicos" data-anime="left">Soluções Completas para sua Empresa</h2>
+			<h3 data-anime="left">Aqui na CN trabalhamos com Implantação e Suporte de Sistemas PDV</h3>
+			<p data-anime="left"> Confira abaixo algumas vantagens em ter um sistema pdv em seu estabelecimento</p>
+			<div class="solucoes-pdv">
+				<img src="imagens/solucoes-pdv.PNG" alt="solucoes-pdv" data-anime="right">
+			</div>
+			<div class="solucoes-pdv">
+				<img src="imagens/solucoes-pdv2.PNG" alt="solucoes-pdv" data-anime="right">
+			</div>
+
+			<h2 data-anime="left">Pensou que acabou?</h2>
+			<p class="p-destaque" data-anime="right">Com nosso sistema você pode visualizar todas as informações direto no seu celular.</p>
+			<div class="solucoes-texto" data-anime="left">
+				
+			
+			<p>&#9899; Vendas em números e o período do dia;</p>
+			<p>&#9899; Cancelamentos (por padrão pode identificar roubos);
+			</p>
+			<p>&#9899; Produtos e setores mais vendidos, em porcentagem de vendas</p>	
+			<p>&#9899; Formas de pagamentos mais utilizadas (Dinheiro, Cartão)</p>
+			</div>
+
+							<br>
+							<br>
+
+			<h3 data-anime="left">Trabalhamos com os principais segmentos do Mercado</h3>
+			
+			<div class="imagens-servicos" data-anime="right">
+				<div >
+					<img src="imagens/supermercado.jpg" alt="email" class="img-icon">
+					<p><strong>Supermercados,Mercadinho</strong></p>
+				</div>
+				
+				<div>
+					<img src="imagens/restaurante.jpg" alt="email" class="img-icon">
+					<p><strong>Restaurante, Bar e Lanchonete</strong></p>
+				</div>
+				
+				<div >
+					<img src="imagens/padaria.jpg" alt="telefone" class="img-icon">
+					<p><strong>Padarias</strong></p>
+				</div>
+
+				<div >
+					<img src="imagens/Madereira.jpg" alt="telefone" class="img-icon">
+					<p><strong>Material de Contrução</strong></p>
+				</div>
+
+				<div >
+					<img src="imagens/atacado.jpg" alt="telefone" class="img-icon">
+					<p><strong>Atacadista e Distribuidor</strong></p>
+				</div>
+					
+				</div>			
+			
+			
+		</div>
+	</section>	
+
+	<section class="blog">
+		<div class="container" data-anime="right">
+			<h2 class="titulo-secao">Parceiros</h2>
+
+			<div class="parceiros">
+
+			<div >
+				<img src="imagens/parceiros.jpg" alt="telefone" class="img-icon">
+				
+			</div>
+
+			
+			<div >
+				<img src="imagens/parceiros.jpg" alt="telefone" class="img-icon">
+				
+			</div>
+
+			
+			<div >
+				<img src="imagens/parceiros.jpg" alt="telefone" class="img-icon">
+				
+			</div>
+
+			
+			<div >
+				<img src="imagens/parceiros.jpg" alt="telefone" class="img-icon">
+				
+			</div>
+
+			</div>
+
+
+
+
+		</div>
+	</section>
+
+	<section class="contato">
+		<div class="container" data-anime="left">
+			<hr>
+			<h2 class="titulo-secao">Como você prefere falar com a gente?
+					</h2>
+					<div class="formas-contato" data-anime="right">
+						<div class="email-box">
+							<img src="imagens/email.png" alt="email" class="img-icon">
+							<div class="email-info">
+								<p><strong>Email</strong></p>
+								<p>cnautomacaocomercial@gmail.com</p>
+							</div>
+						</div>
+						<div class="telefone-box">
+							<img src="imagens/wathsapp.png" alt="telefone" class="img-icon">
+							<div class="telefone-info">
+								<p><strong>Wathsapp</strong></p>
+								<p>1321423131</p>
+							</div>
+						</div>			
+					</div>
+			
+		</div>
+	</section>
+
+	</main>
+
+	<footer>
+		<div class="container">
+			<h1> CN- Automação Comercial</h1>
+			
+
+			<ul class="social">
+				<li><a href="https://www.facebook.com/CNAUTOMACAOCOMERCIAL">Facebook</a></li>
+			
+				<li><a href="https://instagram.com/cnautomacao?igshid=15upzq9ovpyp6">Instagram</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="js/ancora.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/animation.js"></script>
+
+</body>
+</html>
